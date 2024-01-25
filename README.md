@@ -11,7 +11,7 @@ Welcome to your interactive Software Developer Workshop! Please follow the instr
 
 2. Clone the repository:
 ```
-git clone https://github.com/sanger-pathogens/paminfo-training-FE.git
+git clone https://github.com/sanger-pathogens/paminfo-open-lab-event.git
 ```
 3. Open the project in your IDE and run the following:
 
