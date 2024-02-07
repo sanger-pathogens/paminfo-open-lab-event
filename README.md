@@ -17,7 +17,6 @@ git clone https://github.com/sanger-pathogens/paminfo-open-lab-event.git
 
 ```
 npm install
-npm run build
 npm run dev
 ```
 4. Visit http://localhost:3000 to see your changes locally/live
@@ -27,8 +26,10 @@ npm run dev
 
 The only relevant files to complete this exerise are:
 
-- `src/routes/+page.svelte`
 - `src/routes/constant_store.svelte`
+- `src/routes/ExerciseOne.svelte`
+- `src/routes/ExerciseTwo.svelte`
+- `src/routes/ExerciseThree.svelte`
 
 There is no need to explore the rest of the contents/all the exercises can be completed by editing `src/routes/+page.svelte` (which will be rendered on http://localhost:3000)
 
