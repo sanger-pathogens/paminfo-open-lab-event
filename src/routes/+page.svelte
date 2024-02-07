@@ -1,6 +1,7 @@
-<!--suppress ALL -->
 <script>
-  import { file_format } from "./constant_store.svelte";
+  import ExerciseOne from "./ExerciseOne.svelte";
+  import ExerciseThree from "./ExerciseThree.svelte";
+  import ExerciseTwo from "./ExerciseTwo.svelte";
 </script>
 
 <h2>Welcome to your interactive Software Developer workshop!</h2>
@@ -9,9 +10,10 @@
 <div>
   <details>
     <summary>1. On-click event </summary>
+    Open src/routes/ExerciseOne.svelte
     <li>
       Create a button which displays a "Hello World" message each time the
-      button gets clicked (either as via console log or alert)
+      button gets clicked (using a console.log or alert function)
     </li>
     <li>
       Change the style of your button: e.g. make the background black/the text
@@ -27,11 +29,7 @@
   </details>
 
   <h3>
-    <!-- EX1: YOUR CODE GOES HERE!! -->
-
-    <button>Button</button>
-
-    <!-- ------------------ END     -->
+<ExerciseOne/>
   </h3>
 
   <details>
@@ -47,11 +45,7 @@
   </details>
 
   <h3>
-    <!-- EX2:  FIX THE CODE BELOW     -->
-    {#each file_format as file}
-      <div>{file.file_name}</div>
-    {/each}
-    <!-- ------------------ END -->
+<ExerciseTwo/>
   </h3>
 
   <details>
@@ -68,25 +62,5 @@
     >
   </details>
 
-  <!--EX3: HINT: use a simple HTML table structure;
-
-        YOUR CODE GOES HERE!!
-
-      ------------------ END -->
-      
+<ExerciseThree/>
 </div>
-
-<style>
-  p {
-    margin-top: 0rem;
-  }
-  table,
-  th,
-  td {
-    max-width: 60rem;
-    border: 1px solid;
-    border-collapse: collapse;
-    margin-bottom: 10px;
-    align-content: center;
-  }
-</style>
