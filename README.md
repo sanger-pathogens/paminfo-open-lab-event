@@ -24,14 +24,15 @@ npm run dev
 
 ## Important
 
-The only relevant files to complete this exerise are:
+The files you will need to edit are:
 
-- `src/routes/constant_store.svelte`
 - `src/routes/ExerciseOne.svelte`
 - `src/routes/ExerciseTwo.svelte`
 - `src/routes/ExerciseThree.svelte`
 
-There is no need to explore the rest of the contents/all the exercises can be completed by editing `src/routes/+page.svelte` (which will be rendered on http://localhost:3000)
+There is no need to explore the rest of the repository contents. 
+
+Follow the instructions you see on: http://localhost:3000
 
 ## Exercises
 
