@@ -5,16 +5,16 @@ Welcome to your interactive Software Developer Workshop! Please follow the instr
 ## Requirements
 
 1. Have [Node.js](https://nodejs.org/en/) installed. 
-   * If you're using a mac and have Homebrew installed, you can simply run: 
-
-      `brew install node`
 
 2. Clone the repository:
 ```
 git clone https://github.com/sanger-pathogens/paminfo-open-lab-event.git
 ```
-3. Open the project in your IDE and run the following:
+3. Install [VSCode](https://code.visualstudio.com/download):
 
+4. Open your project in VSCode and install the suggested Svelte plugin.
+
+5. Run the following in your integrated terminal:
 ```
 npm install
 npm run dev
