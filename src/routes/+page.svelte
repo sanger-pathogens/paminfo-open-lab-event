@@ -10,7 +10,7 @@
 <div>
   <details>
     <summary>1. On-click event </summary>
-    Open src/routes/ExerciseOne.svelte
+    Open: src/routes/ExerciseOne.svelte
     <li>
       Create a button which displays a "Hello World" message each time the
       button gets clicked (using a console.log or alert function)
@@ -34,6 +34,7 @@
 
   <details>
     <summary>2. Fix the bug<br /></summary>
+    Open: src/routes/ExerciseTwo.svelte
     <li>
       A <i>file_format</i> object is being imported from
       <i>./constant_store.svelte</i>, but is not its '<i>name</i>' property
@@ -50,6 +51,7 @@
 
   <details>
     <summary>3. Create and Populate a table</summary>
+    Open: src/routes/ExerciseThree.svelte
     <li>
       Using the imported <i>file_format</i> object, display all of the object properties
       in a table. Note that the style for the table element has already been provided
